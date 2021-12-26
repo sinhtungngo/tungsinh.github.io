@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Sinh Tung</title>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+
+<style>
+  body , h1 , h2 , h3 {font-family: 'Urbanist', sans-serif;}
+  h4 {font-family: 'Urbanist', sans-serif; font-size: 21px;}
+  h6 {font-family: 'Urbanist', sans-serif; font-size: 16px;}
+  p  {font-family: 'Urbanist', sans-serif; font-size: 13px;}
+  .w3-row-padding img {margin-bottom: 12px}
+  hr {border-top: 0.5px solid black;}
+
+  .w3-jumbo {
+    transition: .5s;
+  }
+  .w3-jumbo:hover {
+    transform: scale(1.2); }
+
+    .fa {
+    transition: .5s;
+  }
+  .fa:hover {
+    transform: scale(1.5); }
+
+    .w3-logo {
+    transition: .5s;
+  }
+  .w3-logo:hover {
+    transform: scale(1.2); }
+     .w3-icon {
+    transition: .5s;
+  }
+  .w3-icon:hover {
+    transform: scale(1.2); }
+
+
+
+
+</style>
+</head>
+
+
+
+<body class="w3-light-grey w3-content" style="max-width: 1500px">
+
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-animate-left w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width: 300px;" id="mySidebar"><br>
+    <div>
+      <a href="index.html"><img src="code image/logo 2.png" class="w3-logo w3-center w3-padding-64" style="width: 33%"></a>
+    </div> 
+    <a href="aboutme.html" onclick="w3_close()" class="w3-bar-item w3-button">About me</a>
+    <a href="photo.html" onclick="w3_close()" class="w3-bar-item w3-button">Photography</a>
+    <a href="blog.html" onclick="w3_close()" class="w3-bar-item w3-button">Blog</a>
+
+    <div class="w3-bar-item w3-center w3-large w3-padding-64 w3-display-bottomleft">
+      
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+   
+    <i class="fa fa-youtube w3-hover-opacity"></i>
+  
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-small">Copyright 2021 by <a href="#" target="_blank" class="w3-hover-text-green">Sinh Tung Ngo</a></p>
+    </div>
+
+   </nav>
+
+   <!-- Top menu on small screens -->
+   <header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding">
+      <a href="index.html"><img src="code image/logo 2.png" class="w3-left w3-padding" style="width: 20%"></a>
+    <a href="javascript:void(0)" class="w3-right w3-button w3-black" onclick="w3_open()">☰</a>
+   </header>
+
+   <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+  <!-- Page Content -->
+  <div class="w3-main" style="margin-left:300px">
+
+    <!-- Push down content on small screens --> 
+    <div class="w3-hide-large" style="margin-top:70px;"></div>
+
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="Code image/12.png" alt="Architecture" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    
+</header>
+
+
+    <div class="w3-container w3-light-grey w3-text-dark-grey w3-padding-32" id="about">
+      <div class="w3-content w3-justify" style="max-width:600px">
+
+        <h2 class="w3-text-dark-grey">NGO SINH TUNG</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p style="font-size: 17px">Creating and innovating design is my passion. I learned a graphic design in FPT for four years. My future plans are to pursue a challenging career and be a part of the progressive organization that gives scope to enchance my knowledge and utilize my creativity and skills towards the growth of the organization.
+        </p>
+
+          <br>
+    
+        <div class="w3-row w3-center w3-padding-16 w3-section w3-dark-grey">
+          <div class="w3-col l3 s3 w3-section w3-icon ">
+            <img  src="Code image/icon1.png" width="50,6px" height="40px"><br><br>camera</div>
+          <div class="w3-col l3 s3 w3-section w3-icon">
+            <img src="Code image/icon2.png" width="44,4px" height="40px"><br><br>travel</div>
+          <div class="w3-col l3 s3 w3-section w3-icon">
+            <img src="Code image/icon3.png" width="53,4px" height="40px"><br><br>painting</div>
+          <div class="w3-col l3 s3 w3-section w3-icon">
+            <img src="Code image/icon4.png" width="49,7px" height="40px"><br><br>music</div>
+          </div>
+
+         <button class="w3-button w3-light-grey w3-padding-large w3-section">
+           <a href="https://drive.google.com/drive/u/0/folders/1nIoGYdAkYXLSgSvH1hsKQEeykflYpsZF"><i class="fa fa-download"></i> Download Resume </a>
+         </button>
+
+        </div>
+
+
+          <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact" style="max-width: 600px">
+    <h2 class="w3-text-dark-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa-fw w3-text-dark-grey w3-xlarge w3-margin-right"></i>Location: Ha Noi, Viet Nam</p>
+      <p><i class="fa-fw w3-text-dark-grey w3-xlarge w3-margin-right"></i> Phone: 0966.092.341</p>
+      <p><i class="fa-fw w3-text-dark-grey w3-xlarge w3-margin-right"> </i> Email: sinhtungngo@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+
+</div>
+
+          <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge" style="max-width: 600px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+   
+    <i class="fa fa-youtube w3-hover-opacity"></i>
+  
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Copyright 2021 by <a href="#" target="_blank" class="w3-hover-text-green">Sinh Tung Ngo</a></p>
+  <!-- End footer -->
+  </footer>
